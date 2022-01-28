@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["offer"],{"0d6b":function(e,n,r){"use strict";r.r(n);var t=r("7a23");function c(e,n,r,c,o,a){var u=Object(t["C"])("router-view");return Object(t["u"])(),Object(t["d"])(u)}var o={name:"Offer"},a=r("6b0d"),u=r.n(a);const b=u()(o,[["render",c]]);n["default"]=b}}]);
+//# sourceMappingURL=offer.79c1d30b.js.map

@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["statistics"],{"02cd":function(t,s,c){"use strict";c.r(s);var i=c("7a23"),e={class:"statistics"},n=Object(i["i"])("h1",{class:"statistics__title page__title"},"Статистика",-1),a=[n];function o(t,s){return Object(i["x"])(),Object(i["h"])("section",e,a)}var r=c("6b0d"),b=c.n(r);const d={},p=b()(d,[["render",o]]);s["default"]=p}}]);
-//# sourceMappingURL=statistics.b66bea1a.js.map

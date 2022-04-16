@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["index"],{"8b24":function(e,n,t){"use strict";t.r(n);var c=t("7a23"),r={class:"page"};function a(e,n,t,a,d,i){var o=Object(c["F"])("router-view");return Object(c["x"])(),Object(c["h"])("div",r,[Object(c["k"])(o)])}var d={name:"Index"},i=t("d959"),o=t.n(i);const s=o()(d,[["render",a]]);n["default"]=s}}]);
+//# sourceMappingURL=index.4e86fbf2.js.map

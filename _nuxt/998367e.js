@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[111],{761:function(e,n,t){"use strict";t.r(n);var c={name:"Recommended",head:function(){return{title:"Рекомендованные"}}},l=t(0),component=Object(l.a)(c,(function(){var e=this.$createElement;return(this._self._c||e)("div")}),[],!1,null,null,null);n.default=component.exports}}]);

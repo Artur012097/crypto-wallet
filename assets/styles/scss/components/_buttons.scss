@@ -1,0 +1,58 @@
+button {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease;
+
+    &.big {
+        height: 76px;
+    }
+
+    &.filled {
+        width: 100%;
+        background: $violet80;
+
+        &:hover {
+            background: $violet;
+        }
+
+        &:disabled {
+            background-color: $violet20;
+            cursor: not-allowed;
+
+            &:hover {
+                background: $violet20;
+            }
+        }
+    }
+
+    &.outlined {
+        height: auto;
+        padding: 10px 30px;
+        color: $white;
+        border: 1px solid $white;
+        background-color: transparent;
+
+        &:hover {
+            background-color: $white;
+            color: $text;
+        }
+    }
+
+    &.password {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}

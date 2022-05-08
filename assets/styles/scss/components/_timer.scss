@@ -1,0 +1,24 @@
+.main-timer {
+    display: flex;
+
+    > div {
+        display: flex;
+        align-items: center;
+    }
+
+    span {
+        display: block;
+        font-family: "RalewayMedium", serif;
+        font-size: 36px;
+        line-height: 54px;
+        color: $text;
+
+        &.value {
+            margin-right: 10px;
+        }
+
+        &.mean {
+            margin-right: 20px;
+        }
+    }
+}

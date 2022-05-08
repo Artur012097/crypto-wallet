@@ -1,0 +1,18 @@
+footer {
+    padding-top: 151px;
+    background-color: $white;
+    padding-bottom: 50px;
+    margin-top: -1px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+    a,
+    p {
+        color: $gray;
+    }
+}

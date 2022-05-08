@@ -1,0 +1,19 @@
+@mixin font(
+  $font-name,
+  $font-style,
+  $font-weight,
+  $font-woff2,
+  $font-woff,
+  $font-ttf,
+  $font-eot
+) {
+  @font-face {
+    font-family: $font-name;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-display: swap;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    src: url($font-woff2) format('woff2'), url($font-woff) format('woff'),
+      url($font-ttf) format('ttf'), url($font-eot) format('eot');
+  }
+}

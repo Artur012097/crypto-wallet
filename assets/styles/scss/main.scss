@@ -1,0 +1,76 @@
+@import './fonts';
+@import './variables/colors';
+@import './variables/variables';
+@import './components/input';
+@import './components/buttons';
+@import './components/header';
+@import './components/main-content';
+@import './components/timer';
+@import './components/main-form';
+@import './components/footer';
+@import './components/success-popup';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#videoBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 19.95px;
+}
+
+.content-wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.gif {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.ellipse-blue {
+    position: absolute;
+    left: 0;
+    top: -168px;
+}
+
+.ellipse-violet {
+    position: absolute;
+    right: 0;
+    bottom: -161px;
+}
+
+.figure-blue {
+    position: absolute;
+    bottom: 0;
+}
+
+.figure-violet {
+    position: absolute;
+    top: -450px;
+    right: 0;
+    z-index: 0;
+}

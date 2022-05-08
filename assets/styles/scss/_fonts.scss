@@ -1,0 +1,41 @@
+@import './_mixins/font-face';
+
+@include font(
+  'RalewayRegular',
+  'normal',
+  400,
+  '../../fonts/Raleway-Regular.woff2',
+  '../../fonts/Raleway-Regular.woff',
+  '../../fonts/Raleway-Regular.ttf',
+  '../../fonts/Raleway-Regular.eot'
+);
+
+@include font(
+  'RalewayMedium',
+  'normal',
+  500,
+  '../../fonts/Raleway-Medium.woff2',
+  '../../fonts/Raleway-Medium.woff',
+  '../../fonts/Raleway-Medium.ttf',
+  '../../fonts/Raleway-Medium.eot'
+);
+
+@include font(
+  'RalewaySemiBold',
+  'normal',
+  600,
+  '../../fonts/Raleway-SemiBold.woff2',
+  '../../fonts/Raleway-SemiBold.woff',
+  '../../fonts/Raleway-SemiBold.ttf',
+  '../../fonts/Raleway-SemiBold.eot'
+);
+
+@include font(
+  'RalewayBold',
+  'normal',
+  700,
+  '../../fonts/Raleway-Bold.woff2',
+  '../../fonts/Raleway-Bold.woff',
+  '../../fonts/Raleway-Bold.ttf',
+  '../../fonts/Raleway-Bold.eot'
+);

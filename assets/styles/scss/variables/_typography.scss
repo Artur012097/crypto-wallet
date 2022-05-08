@@ -1,0 +1,64 @@
+@import '../fonts';
+
+a {
+    text-decoration: none;
+}
+
+.f-regular {    
+    font-weight: 400;
+    font-family: 'RalewayRegular', serif;
+}
+
+.f-medium {
+    font-weight: 500;
+    font-family: 'RalewayMedium', serif;
+}
+
+.f-semi {
+    font-weight: 600;
+    font-family: 'RalewaySemiBold', serif;
+}
+
+.f-bold {
+    font-weight: 700;
+    font-family: 'RalewayBold', serif;
+}
+
+.text-xs {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text-sm {
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.text-md {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.text-lg {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-lg2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.text-xl {
+    font-size: 56px;
+    line-height: 84px;
+}
+
+.text-2xl {
+    font-size: 112px;
+    line-height: 131.49px;
+}
+
+.upp {
+    text-transform: uppercase;
+}

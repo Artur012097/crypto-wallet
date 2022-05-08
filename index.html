@@ -1,1 +1,162 @@
-<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="Endo Stars, Sales Software, crm"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>sales_software</title><link href="/css/login.83acdf86.css" rel="prefetch"><link href="/css/not-found.273e633f.css" rel="prefetch"><link href="/css/offers.4ae1bea8.css" rel="prefetch"><link href="/css/requisites.b2eee9fe.css" rel="prefetch"><link href="/css/settings.5cdb8809.css" rel="prefetch"><link href="/js/certificate.d46ea799.js" rel="prefetch"><link href="/js/index.4e86fbf2.js" rel="prefetch"><link href="/js/login.29c30777.js" rel="prefetch"><link href="/js/not-found.783c0f89.js" rel="prefetch"><link href="/js/offers.9eafa120.js" rel="prefetch"><link href="/js/requisites.86c02288.js" rel="prefetch"><link href="/js/settings.85a0be85.js" rel="prefetch"><link href="/js/statistics.b1e158ea.js" rel="prefetch"><link href="/js/tech-docs.feaeb112.js" rel="prefetch"><link href="/css/app.6def4fa3.css" rel="preload" as="style"><link href="/js/app.c7fe572f.js" rel="preload" as="script"><link href="/js/chunk-vendors.85c1eeae.js" rel="preload" as="script"><link href="/css/app.6def4fa3.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but sales_software doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.85c1eeae.js"></script><script src="/js/app.c7fe572f.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.png">
+    <link rel="stylesheet" href="../assets/styles/css/main.css">
+    <title>Rate-Club</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <!-- header -->
+        <header class="content-wrapper">
+            <img src="./assets/images/icons/logo.svg" alt="RateClub">
+            <button class="prereg header-pre outlined f-medium text-sm">
+                pre-registration
+            </button>
+        </header>
+
+        <!-- video background -->
+        <video autoplay muted loop id="videoBg">
+            <source src="./assets/video/background.mp4" type="video/mp4">
+        </video>
+
+        <!-- content -->
+        <main class="main">
+            <!-- main content preview -->
+            <section class="main-content main-content-preview">
+                <div class="main-content-row content-wrapper">
+                    <div class="main-content--info">
+                        <h1>
+                            <span class="main-content--info-text f-bold text-2xl">The People</span>
+                            <div class="main-content--info-text f-bold text-2xl">
+                                Stock
+                                <img class="main-content--info-bt-gif gif" src="./assets/images/gifs/bt_gif.webp" alt="Gif">
+                            </div>
+                            <span class="main-content--info-text f-bold text-2xl">Exchange</span>
+                        </h1>
+                        <p class="main-content--info-description f-medium text-lg">
+                            Anyone can make their own <span class="upp">ipo</span> and list it on the stock exchange, just like big companies do
+                        </p>
+                    </div>
+                    <div class="main-content--preview-image">
+                        <img src="./assets/images/preview.png" alt="Preview">
+                    </div>
+                </div>
+                <!-- main content timer -->
+                <div class="main-content-row main-content-timer">
+                    <h2 class="main-content-timer text-lg2 f-regular">
+                        Starting at:
+                    </h2>
+                    <!-- timer -->
+                    <div class="main-timer">
+                        <div>
+                            <span class="value">
+                                3
+                            </span>
+                            <span class="mean">
+                                months
+                            </span>
+                        </div>
+                        <div>
+                            <span class="value">
+                                2
+                            </span>
+                            <span class="mean">
+                                days
+                            </span>
+                        </div>
+                        <div>
+                            <span class="value">
+                                18
+                            </span>
+                            <span class="mean">
+                                hours
+                            </span>
+                        </div>
+                        <div>
+                            <span class="value">
+                                45
+                            </span>
+                            <span class="mean">
+                                minutes
+                            </span>
+                        </div>
+                        <div>
+                            <span class="value">
+                                59
+                            </span>
+                            <span class="mean">
+                                seconds
+                            </span>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <div class="main-content-timer--button">
+                        <button class="prereg filled f-regular text-lg2 big">
+                            begin pre-registration
+                        </button>
+                        <img src="./assets/images/arrow.svg" alt="Arrow">
+                    </div>
+                </div>
+            </section>
+            <!-- form -->
+            <section class="main-form" id="formSection">
+                <div class="main-form-row content-wrapper">
+                    <div class="main-form--info">
+                        <p class="text-xl f-semi">Send your details for pre-registration</p>
+                        <img class="gif" src="./assets/images/gifs/telegram_gif.webp" alt="Telegram">
+                    </div>
+                    <div class="main-form--fields">
+                        <div class="input-wrapper input-email">
+                            <input type="text" name="email" placeholder="email">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="input-wrapper input-passowd">
+                            <input type="password" name="password" placeholder="password">
+                            <span class="error-message"></span>
+                            <button class="password" id="showPassword">
+                                <img class="input--icon" src="./assets/images/icons/eye-on.svg" alt="Show">
+                            </button>
+                        </div>
+                        <div class="input-wrapper input-username">
+                            <input type="text" name="username" placeholder="username">
+                            <span class="error-message"></span>
+                        </div>
+                        <p class="text-sm f-regular">
+                            By signing up, you agree to our Terms, Data Policy and Cookies Policy. 
+                            <a href="#" >Learn more...</a>
+                        </p>
+                        <button class="filled f-regular text-lg" id="submitButton" disabled>
+                            send
+                        </button>
+                    </div>
+                </div>
+
+                <!-- decorations -->
+                <img class="ellipse-blue" src="./assets/images/ellipse-blue.svg" alt="Ellipse Blue">
+                <img class="ellipse-violet" src="./assets/images/ellipse-violet.svg" alt="Ellipse Violet">
+                <img class="figure-violet" src="./assets/images/figure-bg-violet.svg" alt="Figure Violet">
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-row content-wrapper">
+                <a href="mailto:info@easydevelopment.org" class="text-ms f-regular">info@easydevelopment.org</a>
+            <p class="text-ms f-regular">
+                Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152
+            </p>
+            </div>
+            <img class="figure-blue" src="./assets/images/figure-bg-blue.svg" alt="Figure Blue">
+        </footer>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

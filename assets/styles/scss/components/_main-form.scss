@@ -1,0 +1,40 @@
+.main-form {
+    padding-top: 150px;
+    background-color: $white;  
+    position: relative;
+
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+    }
+
+    &--info {
+        p {
+            max-width: 504px;
+            color: $violet;
+            margin-bottom: 30px;
+        }
+    } 
+
+    &--fields {
+        .input-wrapper {
+            width: 598px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: $textLight;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: $violet40;
+
+            &:hover {
+                color: $violet40;
+            }
+        }
+    }
+}

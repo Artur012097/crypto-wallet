@@ -1,6 +1,6 @@
 .main-form {
     padding-top: 150px;
-    background-color: $white;  
+    background-color: $white;
     position: relative;
 
     &-row {
@@ -16,7 +16,7 @@
             color: $violet;
             margin-bottom: 30px;
         }
-    } 
+    }
 
     &--fields {
         .input-wrapper {
@@ -34,6 +34,73 @@
 
             &:hover {
                 color: $violet40;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-form {
+        &--fields {
+            max-width: 400px;
+
+            .input-wrapper {
+                width: 100%;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        &--info {
+            max-width: 290px;
+
+            p {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-form {
+        padding-top: 120px;
+        margin-top: -1px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-form {
+        padding-top: 70px;
+
+        &-row {
+            flex-direction: column;
+        }
+
+        &--fields {
+            max-width: 100%;
+            
+            .input-wrapper {
+                margin-bottom: 28px;
+            }
+
+            &-preview p {
+                margin: 28px 0;
+            }
+        }
+
+        &--info {
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            p {
+                max-width: 100%;
+                margin-bottom: 0;
             }
         }
     }

@@ -40,6 +40,7 @@ body {
 
 .content-wrapper {
     max-width: 1220px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -49,6 +50,7 @@ body {
     overflow: hidden;
     border-radius: 100%;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .ellipse-blue {
@@ -73,4 +75,49 @@ body {
     top: -450px;
     right: 0;
     z-index: 0;
+}
+
+@media (max-width: 1220px) {
+    .content-wrapper {
+        padding: 0 20px;
+    }
+
+    .gif {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ellipse-blue,
+    .ellipse-violet {
+        display: none;
+    }    
+
+    .figure-blue {
+       width: 409px;
+    }
+
+    .figure-violet {
+        width: 320px;
+        height: 350px;
+        top: -345px;
+        right: -60px;
+        z-index: -1;
+     }
+}
+
+@media (max-width: 640px) {
+    .gif {
+        width: 48px;
+        height: 48px;
+    }
+
+    .figure-blue {
+        width: 100%;
+     }
+
+     .figure-violet {
+         display: none;
+     }
 }

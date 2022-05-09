@@ -47,12 +47,34 @@ button {
     }
 
     &.password {
-        width: auto;
-        height: auto;
+        width: 24px;
+        height: 24px;
         background-color: transparent;
 
         &:hover {
             background-color: transparent;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    button {
+        &.big {
+            height: 70px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    button {
+        height: 43px;
+
+        &.big {
+            height: 43px;
+        }
+
+        &.outlined {
+            padding: 5px 20px;
         }
     }
 }

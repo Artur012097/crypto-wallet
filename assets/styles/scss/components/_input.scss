@@ -31,6 +31,7 @@
     font-family: 'RalewayRegular', serif;
     font-size: 12px;
     line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
     color: $error;
     position: absolute;
     bottom: -17px;
@@ -47,6 +48,7 @@ input {
     font-family: 'RalewayRegular', serif;
     font-size: 18px;
     line-height: 27px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
     color: $text;
     transition: .2s ease;
 
@@ -70,6 +72,43 @@ input {
         font-family: 'RalewayRegular', serif;
         font-size: 18px;
         line-height: 27px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
         color: $grayLight;
+    }
+}
+
+@media (max-width: 768px) {
+    input {
+        height: 53px;
+    }
+}
+
+@media (max-width: 640px) {
+    input {
+        height: 47px;
+        padding: 12px 20px;
+
+        &,
+        &::placeholder {
+            font-size: 15px;
+            line-height: 22.5px;
+        }
+    }
+
+    .input {
+        &-wrapper {
+    
+            &.error {
+                &:after {
+                    top: 12px;
+                    right: 10px;
+                }
+            }
+    
+            button {
+                top: 12px;
+                right: 10px;
+            }
+        }
     }
 }

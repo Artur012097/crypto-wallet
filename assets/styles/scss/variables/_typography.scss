@@ -5,23 +5,27 @@ a {
 }
 
 .f-regular {    
-    font-weight: 400;
     font-family: 'RalewayRegular', serif;
+    font-weight: 400;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-medium {
-    font-weight: 500;
     font-family: 'RalewayMedium', serif;
+    font-weight: 500;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-semi {
-    font-weight: 600;
     font-family: 'RalewaySemiBold', serif;
+    font-weight: 600;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-bold {
-    font-weight: 700;
     font-family: 'RalewayBold', serif;
+    font-weight: 700;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .text-xs {
@@ -37,26 +41,67 @@ a {
 .text-md {
     font-size: 18px;
     line-height: 27px;
+
+    @media (max-width: 1024px) {
+        font-size: 15px;
+        line-height: 22.5px;
+    }
 }
 
 .text-lg {
     font-size: 20px;
     line-height: 30px;
+
+    @media (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
 
 .text-lg2 {
     font-size: 24px;
     line-height: 36px;
+
+    @media (max-width: 1024px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 15px;
+        line-height: 22.5px;
+    }
 }
 
 .text-xl {
     font-size: 56px;
     line-height: 84px;
+
+    @media (max-width: 1024px) {
+        font-size: 
+        32px;
+        line-height: 48px;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .text-2xl {
     font-size: 112px;
     line-height: 131.49px;
+
+    @media (max-width: 1024px) {
+        font-size: 72px;
+        line-height: 84.53px;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 48px;
+        line-height: 56.35px;
+    }
 }
 
 .upp {

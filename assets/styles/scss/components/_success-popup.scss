@@ -63,3 +63,11 @@
         transform: scale(1);
     }
 }
+
+@media (max-width: 640px) {
+    .success-popup {
+        &-wrapper {
+            width: 90%;
+        }
+    }
+}

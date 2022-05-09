@@ -106,6 +106,7 @@ submitButton.addEventListener('click', () => {
             }
         } else {
             createPopup()
+            submitButton.disabled = true
             for (i of fields) {
                 i.value = ''
             }

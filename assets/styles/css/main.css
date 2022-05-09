@@ -518,6 +518,7 @@ header {
   .main-content-preview {
     min-height: calc(100vh - 51px);
     padding-top: 40px;
+    padding-bottom: 20px;
   }
   .main-content-preview:after {
     clip-path: polygon(0 53%, 100% 44%, 100% 100%, 0% 100%);
@@ -835,6 +836,12 @@ footer {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 640px) {
+  .success-popup-wrapper {
+    width: 90%;
   }
 }
 

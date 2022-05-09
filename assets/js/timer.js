@@ -25,6 +25,9 @@ const timer = () => {
     secondesBlock.innerText = `${seconds < 10 ? `0${seconds}` : seconds}`
 }
 
-setInterval(() => {
-    timer()
-}, 1000);
+document.addEventListener('DOMContentLoaded', () => {
+    setInterval(() => {
+        timer()
+    }, 1000);
+});
+

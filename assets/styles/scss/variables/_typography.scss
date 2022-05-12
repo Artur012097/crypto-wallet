@@ -93,6 +93,11 @@ a {
     font-size: 112px;
     line-height: 127.49px;
 
+    @media (min-width: 1024px) and (max-height: 800px) {
+        font-size: 88px;
+        line-height: 103.31px;
+    }
+
     @media (max-width: 1024px) {
         font-size: 72px;
         line-height: 84.53px;

@@ -220,13 +220,13 @@
     .main-content {
 
         &-preview {
-            min-height: calc(100vh - 51px);
+            min-height: auto;
             padding-top: 40px;
             padding-bottom: 20px;
 
             &:after {
-                -webkit-clip-path: polygon(0 59%, 100% 50%, 100% 100%, 0% 100%);
-                clip-path: polygon(0 59%, 100% 50%, 100% 100%, 0% 100%);
+                -webkit-clip-path: polygon(0 68%, 100% 57%, 100% 100%, 0% 100%);
+                clip-path: polygon(0 68%, 100% 57%, 100% 100%, 0% 100%);
             }
         }
 
@@ -249,6 +249,8 @@
             }
 
             &-link {
+                margin-top: 5px;
+
                 span {
                     font-size: 15px;
                     line-height: 22.5px;
@@ -292,8 +294,8 @@
         &-preview {
 
             &:after {
-                -webkit-clip-path: polygon(0 72%, 100% 61%, 100% 100%, 0% 100%);
-                clip-path: polygon(0 72%, 100% 61%, 100% 100%, 0% 100%);
+                -webkit-clip-path: polygon(0 66%, 100% 56%, 100% 100%, 0% 100%);
+                clip-path: polygon(0 66%, 100% 56%, 100% 100%, 0% 100%);
             }
         }
     }
@@ -303,10 +305,21 @@
     .main-content {
         &-preview {
             padding-top: 15px;
+
+            &:after {
+                -webkit-clip-path: polygon(0 67%, 100% 58%, 100% 100%, 0% 100%);
+                clip-path: polygon(0 67%, 100% 58%, 100% 100%, 0% 100%);
+            }
         }
 
         &-timer {
             margin-top: 10px;
+        }
+
+        &--info {
+            &-link {
+                margin-top: 0;
+            }
         }
     }
 }

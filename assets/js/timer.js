@@ -1,10 +1,8 @@
-import { api } from './api'
 const monthsBlock = document.getElementById('months')
 const daysBlock = document.getElementById('days')
 const hoursBlock = document.getElementById('hours')
 const minutesBlock = document.getElementById('minutes')
 const secondesBlock = document.getElementById('secondes')
-console.log(api);
 
 const getEndDate = async (data) => {
     const url = 'https://dev.easydev.group/api/to_start/'

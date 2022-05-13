@@ -28,14 +28,18 @@
 }
 
 .error-message {
+    width: 100%;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
     font-family: 'RalewayRegular', serif;
     font-size: 12px;
     line-height: 18px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: $error;
-    position: absolute;
-    bottom: -17px;
-    left: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 input {

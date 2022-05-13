@@ -78,7 +78,6 @@ const register = async (data) => {
 
     const response = await fetch(url, config)
     return await response.json();
-    
 }
 
 const removeSuccessPopup = () => {
@@ -95,6 +94,8 @@ submitButton.addEventListener('click', () => {
     for (i of fields) {
         data[i.name] = i.value
     }
+    data.source = 1
+    
     register(data)
     .then((data) => {
         if (!data?.id) {

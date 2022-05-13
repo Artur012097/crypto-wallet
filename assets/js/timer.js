@@ -1,12 +1,26 @@
-const endDate = new Date('August 10, 2022 00:00:00')
-const endTime = endDate.getTime()
+import { api } from './api'
 const monthsBlock = document.getElementById('months')
 const daysBlock = document.getElementById('days')
 const hoursBlock = document.getElementById('hours')
 const minutesBlock = document.getElementById('minutes')
 const secondesBlock = document.getElementById('secondes')
+console.log(api);
 
-const timer = () => {
+const getEndDate = async (data) => {
+    const url = 'https://dev.easydev.group/api/to_start/'
+    const config = {
+        method: 'get',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }
+
+    const response = await fetch(url, config)
+    return await response.json();
+}
+
+const timer = (endTime) => {
     const dateNow = new Date().getTime()
     const month = new Date(endTime - dateNow).getMonth();
     const days = new Date(endTime - dateNow).getDay();
@@ -25,9 +39,12 @@ const timer = () => {
     secondesBlock.innerText = `${seconds < 10 ? `0${seconds}` : seconds}`
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    setInterval(() => {
-        timer()
+document.addEventListener('DOMContentLoaded', async () => {
+    const endTime = await getEndDate()*1000 + new Date().getTime()
+
+    await setInterval(() => {
+        timer(endTime)
     }, 1000);
 });
+
 

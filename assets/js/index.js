@@ -1,7 +1,7 @@
 const preregButtons = document.querySelectorAll('.prereg')
 const fields = [...document.querySelectorAll('input')]
 const submitButton = document.getElementById('submitButton')
-const showPasswordButton = document.getElementById('showPassword')
+// const showPasswordButton = document.getElementById('showPassword')
 let error = false
 
 const createPopup = () => {
@@ -142,4 +142,4 @@ fields.forEach(item => {
 })
 
 // show/hide password
-showPasswordButton.addEventListener('click', showHidePassword)
+// showPasswordButton.addEventListener('click', showHidePassword)

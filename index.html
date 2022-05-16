@@ -24,105 +24,107 @@
         <main class="main">
             <!-- main content preview -->
             <section class="main-content main-content-preview">
-                <div class="main-content-row content-wrapper">
-                    <div class="main-content--info">
-                        <h1>
-                            <span class="main-content--info-text f-bold text-2xl">The People</span>
-                            <div class="main-content--info-text f-bold text-2xl">
-                                Stock
+                <div class="main-content-preview__content">
+                    <div class="main-content-row content-wrapper">
+                        <div class="main-content--info">
+                            <h1>
+                                <span class="main-content--info-text f-bold text-2xl">The People</span>
+                                <div class="main-content--info-text f-bold text-2xl">
+                                    Stock
+                                </div>
+                                <span class="main-content--info-text f-bold text-2xl">Exchange</span>
+                            </h1>
+                            <p class="main-content--info-description f-medium text-lg">
+                                Anyone can make their own <span class="upp">ipo</span> and list it on the stock exchange, just like big companies do
+                            </p>    
+                            <a href="https://drive.google.com/file/d/1mDJ4tjI-9S6EFkfn3RBbKEq7HSYmC14d/view" class="main-content--info-link">
+                                <span class="f-semi text-lg">
+                                    look our presentation
+                                </span> 
+                                <img src="./assets/images/icons/arrow.svg" alt="Arrow">
+                            </a>
+                        </div>
+                        <div class="main-content--preview-image">
+                            <img src="./assets/images/preview.png" alt="Preview">
+                        </div>
+                    </div>
+                    <!-- main content timer -->
+                    <div class="main-content-row main-content-timer">
+                        <h2 class="text-lg2 f-regular">
+                            Starting at:
+                        </h2>
+                        <!-- timer -->
+                        <div class="main-timer">
+                            <div>
+                                <span class="value" id="months">
+                                    0
+                                </span>
+                                <span class="mean">
+                                    months
+                                </span>
                             </div>
-                            <span class="main-content--info-text f-bold text-2xl">Exchange</span>
-                        </h1>
-                        <p class="main-content--info-description f-medium text-lg">
-                            Anyone can make their own <span class="upp">ipo</span> and list it on the stock exchange, just like big companies do
-                        </p>    
-                        <a href="#" class="main-content--info-link">
-                            <span class="f-semi text-lg">
-                                look our presentation
-                            </span> 
-                            <img src="./assets/images/icons/arrow.svg" alt="Arrow">
-                        </a>
+                            <div>
+                                <span class="value" id="days">
+                                    0
+                                </span>
+                                <span class="mean">
+                                    days
+                                </span>
+                            </div>
+                            <div>
+                                <span class="value hours" id="hours">
+                                    0
+                                </span>
+                                <span class="mean">
+                                    hours
+                                </span>
+                            </div>
+                            <div>
+                                <span class="value minutes" id="minutes">
+                                    0
+                                </span>
+                                <span class="mean">
+                                    minutes
+                                </span>
+                            </div>
+                            <div>
+                                <span class="value secondes" id="secondes">
+                                    0
+                                </span>
+                                <span class="mean">
+                                    seconds
+                                </span>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <div class="main-content-timer--button">
+                            <button class="prereg filled f-regular text-lg big">
+                                begin pre-registration
+                            </button>
+                            <img class="image" src="./assets/images/arrow.svg" alt="Arrow">
+                            <img class="image-sm" src="./assets/images/arrow_sm.svg" alt="Arrow">
+                        </div>
                     </div>
-                    <div class="main-content--preview-image">
-                        <img src="./assets/images/preview.png" alt="Preview">
-                    </div>
+    
+                    <!-- video background -->
+                    <video autoplay muted loop id="videoBg">
+                        <source src="./assets/video/background.mp4" type="video/mp4">
+                    </video>
                 </div>
-                <!-- main content timer -->
-                <div class="main-content-row main-content-timer">
-                    <h2 class="text-lg2 f-regular">
-                        Starting at:
-                    </h2>
-                    <!-- timer -->
-                    <div class="main-timer">
-                        <div>
-                            <span class="value" id="months">
-                                0
-                            </span>
-                            <span class="mean">
-                                months
-                            </span>
-                        </div>
-                        <div>
-                            <span class="value" id="days">
-                                0
-                            </span>
-                            <span class="mean">
-                                days
-                            </span>
-                        </div>
-                        <div>
-                            <span class="value hours" id="hours">
-                                0
-                            </span>
-                            <span class="mean">
-                                hours
-                            </span>
-                        </div>
-                        <div>
-                            <span class="value minutes" id="minutes">
-                                0
-                            </span>
-                            <span class="mean">
-                                minutes
-                            </span>
-                        </div>
-                        <div>
-                            <span class="value secondes" id="secondes">
-                                0
-                            </span>
-                            <span class="mean">
-                                seconds
-                            </span>
-                        </div>
-                    </div>
-                    <!-- button -->
-                    <div class="main-content-timer--button">
-                        <button class="prereg filled f-regular text-lg big">
-                            begin pre-registration
-                        </button>
-                        <img class="image" src="./assets/images/arrow.svg" alt="Arrow">
-                        <img class="image-sm" src="./assets/images/arrow_sm.svg" alt="Arrow">
-                    </div>
-                </div>
-
-                <!-- video background -->
-                <video autoplay muted loop id="videoBg">
-                    <source src="./assets/video/background.mp4" type="video/mp4">
-                </video>
             </section>
             <!-- form -->
             <section class="main-form" id="formSection">
                 <div class="main-form-row content-wrapper">
                     <div class="main-form--info">
-                        <p class="text-xl f-semi">Send your details for pre-registration</p>
+                        <p class="text-xl f-semi">Send your email for pre-registration</p>
                         <img class="gif" src="./assets/images/gifs/telegram_gif.webp" alt="Telegram">
                     </div>
                     <div class="main-form--fields">
-                        <div class="input-wrapper input-email">
+                        <div class="input-wrapper input-email input-username">
                             <input type="text" name="email" placeholder="email">
                             <span class="error-message"></span>
                         </div>
-                        <div class="input-wrapper input-password">
+                        <!-- <div class="input-wrapper input-password">
                             <input type="password" name="password" placeholder="password">
                             <span class="error-message"></span>
                             <button class="password" id="showPassword">
@@ -132,7 +134,7 @@
                         <div class="input-wrapper input-username">
                             <input type="text" name="username" placeholder="username">
                             <span class="error-message"></span>
-                        </div>
+                        </div> -->
                         <div class="main-form--fields-footer">
                             <p class="text-sm f-regular">
                                 By signing up, you agree to our <span class="f-medium">

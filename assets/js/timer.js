@@ -44,59 +44,45 @@ const createTimer = async () => {
     let interval
 
     const timerContent = `
-    <h2 class="">
-    Starting at:
-        </h2>
-        <!-- timer -->
-        <div class="main-timer">
-            <div>
-                <span class="value" id="months">
-                    0
-                </span>
-                <span class="mean">
-                    months
-                </span>
-            </div>
-            <div>
-                <span class="value" id="days">
-                    0
-                </span>
-                <span class="mean">
-                    days
-                </span>
-            </div>
-            <div>
-                <span class="value hours" id="hours">
-                    0
-                </span>
-                <span class="mean">
-                    hours
-                </span>
-            </div>
-            <div>
-                <span class="value minutes" id="minutes">
-                    0
-                </span>
-                <span class="mean">
-                    minutes
-                </span>
-            </div>
-            <div>
-                <span class="value secondes" id="secondes">
-                    0
-                </span>
-                <span class="mean">
-                    seconds
-                </span>
-            </div>
+        <div>
+            <span class="value" id="months">
+                0
+            </span>
+            <span class="mean">
+                months
+            </span>
         </div>
-        <!-- button -->
-        <div class="main-content-timer--button">
-            <button class="prereg filled big">
-                begin pre-registration
-            </button>
-            <img class="image" src="./assets/images/arrow.svg" alt="Arrow">
-            <img class="image-sm" src="./assets/images/arrow_sm.svg" alt="Arrow">
+        <div>
+            <span class="value" id="days">
+                0
+            </span>
+            <span class="mean">
+                days
+            </span>
+        </div>
+        <div>
+            <span class="value hours" id="hours">
+                0
+            </span>
+            <span class="mean">
+                hours
+            </span>
+        </div>
+        <div>
+            <span class="value minutes" id="minutes">
+                0
+            </span>
+            <span class="mean">
+                minutes
+            </span>
+        </div>
+        <div>
+            <span class="value secondes" id="secondes">
+                0
+            </span>
+            <span class="mean">
+                seconds
+            </span>
         </div>
     `
 

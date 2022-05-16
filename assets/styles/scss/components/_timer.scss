@@ -12,14 +12,17 @@
 
     span {
         display: block;
-        font-family: "PlusJakartaSans-Medium", serif;
-        font-size: 32px;
-        line-height: 48px;
+        font-family: $regular;
+        font-size: 28px;
+        line-height: 42px;
         color: $text;
         font-feature-settings: 'pnum' on, 'lnum' on;
 
         &.value {
             margin-right: 10px;
+            display: flex;
+            justify-content: center;
+
             &.hours,
             &.minutes,
             &.secondes {
@@ -29,42 +32,6 @@
 
         &.mean {
             margin-right: 20px;
-        }
-    }
-}
-
-@media (min-width: 998px) and (max-height: 900px) {
-    .main-timer {
-        margin-top: 4px;
-        span {
-            font-size: 28px;
-            line-height: 42px;
-
-            &.value {
-                &.hours,
-                &.minutes,
-                &.secondes {
-                    width: 30px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 997px) {
-    .main-timer {
-        span {
-            font-size: 28px;
-            line-height: 42px;
-
-            &.value {
-                margin-right: 5px;
-                &.hours,
-                &.minutes,
-                &.secondes {
-                    width: 33px;
-                }
-            }
         }
     }
 }
@@ -103,6 +70,7 @@
             &.value {
                 font-size: 24px;
                 line-height: 30px;
+                font-family: $medium;
                 margin-right: 0;
             }
             &.mean {

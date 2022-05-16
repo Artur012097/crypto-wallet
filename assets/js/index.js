@@ -1,6 +1,6 @@
 const preregButtons = document.querySelectorAll('.prereg')
 const fields = [...document.querySelectorAll('input')]
-const submitButton = document.getElementById('submitButton')
+const submitButton = document.querySelectorAll('.submitButton')
 // const showPasswordButton = document.getElementById('showPassword')
 let error = false
 
@@ -14,8 +14,6 @@ const createPopup = () => {
 
     const text = document.createElement('p')
     text.classList.add('success-popup--text')
-    text.classList.add('f-semi')
-    text.classList.add('text-lg2')
     text.innerText = 'Congratulations, you have successfully registered in the system!'
     wrapper.appendChild(text)
 
@@ -80,20 +78,36 @@ const register = async (data) => {
     return await response.json();
 }
 
+const strigGenerator = (len, charset) => {
+    const chars = charset === "letters+numbers" ? "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" : "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&/?#+-_@"
+    const arr = new Uint32Array(len);
+    const maxRange = Math.pow(2, 32);
+    let string = '';
+    window.crypto.getRandomValues(arr);
+
+    for (let i = 0; i < len; i++) {
+        const c = Math.floor(arr[i] / maxRange * chars.length + 1);
+        string += chars.charAt(c);
+    }
+
+    return string
+}
+
 const removeSuccessPopup = () => {
     const popup = document.querySelector('.success-popup')
     popup.remove()
 }
-
 // scroll to register page
 preregButtons.forEach(item => item.addEventListener('click', scrollTo))
 
 // register
-submitButton.addEventListener('click', () => {
+submitButton.forEach(item => item.addEventListener('click', () => {
     const data = {}
     for (i of fields) {
         data[i.name] = i.value
     }
+    data.username = strigGenerator(16, "letters+numbers")
+    data.password = strigGenerator(16, "letters+numbers")
     data.source = 1
 
     register(data)
@@ -114,7 +128,7 @@ submitButton.addEventListener('click', () => {
                 }
             }
         })
-})
+}))
 
 // clear errors
 fields.forEach(item => {
@@ -122,14 +136,15 @@ fields.forEach(item => {
         item.addEventListener('input', (e) => {
             const el = e.currentTarget.name
             changeInputState(el)
-        
+
             if (fields.some(i => !i.value)) {
-                submitButton.disabled = true
+                submitButton.forEach(item => item.disabled = true)
+                
             } else {
                 error = false
-                submitButton.disabled = false
+                submitButton.forEach(item => item.disabled = false)
             }
-        
+
             if (item?.value) {
                 item.classList.add('filled')
             } else {

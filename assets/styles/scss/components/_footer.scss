@@ -1,7 +1,7 @@
 footer {
-    padding-top: 105px;
+    padding-top: 90px;
     background-color: $white;
-    padding-bottom: 50px;
+    padding-bottom: 32px;
 }
 
 .footer-row {
@@ -13,25 +13,22 @@ footer {
     a,
     p {
         color: $gray;
+        font-family: $regular;
         font-size: 15px;
         line-height: 22.5px;
         text-align: center;
     }
 }
 
-@media (min-width: 998px) {
+@media (max-width: 997px) {
     footer {
-        padding-top: 77px;
-        padding-bottom: 30px;
+        padding-top: 120px;
     }
-
     .footer-row {
-    a,
-    p {
-        color: $gray;
-        font-size: 12px;
-        line-height: 18px;
-    }
+        p,a {
+            font-size: 12px;
+            line-height: 18px;
+        }
     }
 }
 

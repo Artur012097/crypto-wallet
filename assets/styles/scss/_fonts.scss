@@ -1,41 +1,41 @@
 @import './_mixins/font-face';
 
 @include font(
-  'RalewayRegular',
+  'PlusJakartaSans-Regular',
   'normal',
   400,
-  '../../fonts/Raleway-Regular.woff2',
-  '../../fonts/Raleway-Regular.woff',
-  '../../fonts/Raleway-Regular.ttf',
-  '../../fonts/Raleway-Regular.eot'
+  '/static/fonts/PlusJakartaSans-Regular.woff2',
+  '/static/fonts/PlusJakartaSans-Regular.woff',
+  '/static/fonts/PlusJakartaSans-Regular.ttf',
+  '/static/fonts/PlusJakartaSans-Regular.eot'
 );
 
 @include font(
-  'RalewayMedium',
+  'PlusJakartaSans-Medium',
   'normal',
   500,
-  '../../fonts/Raleway-Medium.woff2',
-  '../../fonts/Raleway-Medium.woff',
-  '../../fonts/Raleway-Medium.ttf',
-  '../../fonts/Raleway-Medium.eot'
+  '/static/fonts/PlusJakartaSans-Medium.woff2',
+  '/static/fonts/PlusJakartaSans-Medium.woff',
+  '/static/fonts/PlusJakartaSans-Medium.ttf',
+  '/static/fonts/PlusJakartaSans-Medium.eot',
 );
 
 @include font(
-  'RalewaySemiBold',
+  'PlusJakartaSans-SemiBold',
   'normal',
   600,
-  '../../fonts/Raleway-SemiBold.woff2',
-  '../../fonts/Raleway-SemiBold.woff',
-  '../../fonts/Raleway-SemiBold.ttf',
-  '../../fonts/Raleway-SemiBold.eot'
+  '/static/fonts/PlusJakartaSans-SemiBold.woff2',
+  '/static/fonts/PlusJakartaSans-SemiBold.woff',
+  '/static/fonts/PlusJakartaSans-SemiBold.ttf',
+  '/static/fonts/PlusJakartaSans-SemiBold.eot'
 );
 
 @include font(
-  'RalewayBold',
+  'PlusJakartaSans-Bold',
   'normal',
   700,
-  '../../fonts/Raleway-Bold.woff2',
-  '../../fonts/Raleway-Bold.woff',
-  '../../fonts/Raleway-Bold.ttf',
-  '../../fonts/Raleway-Bold.eot'
+  '/static/fonts/PlusJakartaSans-Bold.woff2',
+  '/static/fonts/PlusJakartaSans-Bold.woff',
+  '/static/fonts/PlusJakartaSans-Bold.ttf',
+  '/static/fonts/PlusJakartaSans-Bold.eot'
 );

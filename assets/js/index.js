@@ -19,7 +19,7 @@ const createPopup = () => {
     text.innerText = 'Congratulations, you have successfully registered in the system!'
     wrapper.appendChild(text)
 
-    const button = document.createElement('button') 
+    const button = document.createElement('button')
     button.setAttribute('id', 'successPopupClose')
     button.classList.add('password')
     wrapper.appendChild(button)
@@ -32,7 +32,7 @@ const createPopup = () => {
 }
 
 const scrollTo = () => {
-    document.getElementById('formSection').scrollIntoView({block: "center", behavior: "smooth"})
+    document.getElementById('formSection').scrollIntoView({ block: "center", behavior: "smooth" })
 }
 
 const changeInputState = (inputName, text) => {
@@ -55,7 +55,7 @@ const showHidePassword = (e) => {
     e.preventDefault()
     const input = e.currentTarget.parentNode.querySelector('input')
     const icon = e.currentTarget.querySelector('img')
-    
+
     if (input?.type === 'password') {
         input.type = 'text'
         icon.src = './assets/images/icons/eye-off.svg'
@@ -63,7 +63,7 @@ const showHidePassword = (e) => {
         input.type = 'password'
         icon.src = './assets/images/icons/eye-on.svg'
     }
-    
+
 }
 
 const register = async (data) => {
@@ -71,10 +71,10 @@ const register = async (data) => {
     const config = {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
-      }
+    }
 
     const response = await fetch(url, config)
     return await response.json();
@@ -95,38 +95,51 @@ submitButton.addEventListener('click', () => {
         data[i.name] = i.value
     }
     data.source = 1
-    
+
     register(data)
-    .then((data) => {
-        if (!data?.id) {
-            for (key of Object.keys(data)) {
-                if (key) {
-                    changeInputState(key, data[key][0]);
-                    submitButton.disabled = true
+        .then((data) => {
+            if (!data?.id) {
+                for (key of Object.keys(data)) {
+                    if (key) {
+                        changeInputState(key, data[key][0]);
+                        submitButton.disabled = true
+                    }
+                }
+            } else {
+                createPopup()
+                submitButton.disabled = true
+                for (i of fields) {
+                    i.value = ''
+                    i.classList.remove('filled')
                 }
             }
-        } else {
-            createPopup()
-            submitButton.disabled = true
-            for (i of fields) {
-                i.value = ''
-            }
-        }
-    })
+        })
 })
 
 // clear errors
-fields.forEach(item => item.addEventListener('input', (e) => {
-    const el = e.currentTarget.name
-    changeInputState(el)
-
-    if (fields.some(i => !i.value)) {
-        submitButton.disabled = true
+fields.forEach(item => {
+    if (Boolean(item.focus)) {
+        item.addEventListener('input', (e) => {
+            const el = e.currentTarget.name
+            changeInputState(el)
+        
+            if (fields.some(i => !i.value)) {
+                submitButton.disabled = true
+            } else {
+                error = false
+                submitButton.disabled = false
+            }
+        
+            if (item?.value) {
+                item.classList.add('filled')
+            } else {
+                item.classList.remove('filled')
+            }
+        })
     } else {
-        error = false
-        submitButton.disabled = false
+        item.removeEventListener('input')
     }
-}))
+})
 
 // show/hide password
 showPasswordButton.addEventListener('click', showHidePassword)

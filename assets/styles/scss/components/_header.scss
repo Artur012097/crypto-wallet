@@ -6,11 +6,14 @@ header {
 }
 
 @media (max-width: 640px) {
-    img {
-        width: 96px;
-    }
-    .header-pre {
-        font-size: 13px;
-        line-height: 19.5px;
+    header {
+        img {
+            width: 96px;
+        }
+    
+        .header-pre {
+            font-size: 13px;
+            line-height: 19.5px;
+        }
     }
 }

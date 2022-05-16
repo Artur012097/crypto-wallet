@@ -5,25 +5,25 @@ a {
 }
 
 .f-regular {    
-    font-family: 'RalewayRegular', serif;
+    font-family: 'PlusJakartaSans-Regular', serif;
     font-weight: 400;
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-medium {
-    font-family: 'RalewayMedium', serif;
+    font-family: 'PlusJakartaSans-Medium', serif;
     font-weight: 500;
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-semi {
-    font-family: 'RalewaySemiBold', serif;
+    font-family: 'PlusJakartaSans-SemiBold', serif;
     font-weight: 600;
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-bold {
-    font-family: 'RalewayBold', serif;
+    font-family: 'PlusJakartaSans-Bold', serif;
     font-weight: 700;
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
@@ -42,7 +42,7 @@ a {
     font-size: 18px;
     line-height: 27px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 997px) {
         font-size: 15px;
         line-height: 22.5px;
     }
@@ -52,7 +52,7 @@ a {
     font-size: 20px;
     line-height: 30px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 997px) {
         font-size: 18px;
         line-height: 27px;
     }
@@ -62,7 +62,7 @@ a {
     font-size: 24px;
     line-height: 36px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 997px) {
         font-size: 20px;
         line-height: 30px;
     }
@@ -77,7 +77,7 @@ a {
     font-size: 56px;
     line-height: 84px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 997px) {
         font-size: 
         32px;
         line-height: 48px;
@@ -91,14 +91,14 @@ a {
 
 .text-2xl {
     font-size: 112px;
-    line-height: 127.49px;
+    line-height: 127px;
 
-    @media (min-width: 1024px) and (max-height: 800px) {
+    @media (min-width: 998px) and (max-height: 900px) {
         font-size: 88px;
         line-height: 103.31px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 997px) {
         font-size: 72px;
         line-height: 84.53px;
     }

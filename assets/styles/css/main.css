@@ -1,81 +1,81 @@
 @font-face {
-  font-family: "RalewayRegular";
+  font-family: "PlusJakartaSans-Regular";
   font-style: "normal";
   font-weight: 400;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Regular.woff2") format("woff2"), url("../../fonts/Raleway-Regular.woff") format("woff"), url("../../fonts/Raleway-Regular.ttf") format("ttf"), url("../../fonts/Raleway-Regular.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Regular.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Regular.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Regular.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Regular.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewayMedium";
+  font-family: "PlusJakartaSans-Medium";
   font-style: "normal";
   font-weight: 500;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Medium.woff2") format("woff2"), url("../../fonts/Raleway-Medium.woff") format("woff"), url("../../fonts/Raleway-Medium.ttf") format("ttf"), url("../../fonts/Raleway-Medium.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Medium.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Medium.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Medium.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Medium.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewaySemiBold";
+  font-family: "PlusJakartaSans-SemiBold";
   font-style: "normal";
   font-weight: 600;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../../fonts/Raleway-SemiBold.woff") format("woff"), url("../../fonts/Raleway-SemiBold.ttf") format("ttf"), url("../../fonts/Raleway-SemiBold.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-SemiBold.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-SemiBold.woff") format("woff"), url("/static/fonts/PlusJakartaSans-SemiBold.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-SemiBold.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewayBold";
+  font-family: "PlusJakartaSans-Bold";
   font-style: "normal";
   font-weight: 700;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Bold.woff2") format("woff2"), url("../../fonts/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway-Bold.ttf") format("ttf"), url("../../fonts/Raleway-Bold.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Bold.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Bold.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Bold.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Bold.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewayRegular";
+  font-family: "PlusJakartaSans-Regular";
   font-style: "normal";
   font-weight: 400;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Regular.woff2") format("woff2"), url("../../fonts/Raleway-Regular.woff") format("woff"), url("../../fonts/Raleway-Regular.ttf") format("ttf"), url("../../fonts/Raleway-Regular.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Regular.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Regular.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Regular.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Regular.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewayMedium";
+  font-family: "PlusJakartaSans-Medium";
   font-style: "normal";
   font-weight: 500;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Medium.woff2") format("woff2"), url("../../fonts/Raleway-Medium.woff") format("woff"), url("../../fonts/Raleway-Medium.ttf") format("ttf"), url("../../fonts/Raleway-Medium.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Medium.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Medium.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Medium.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Medium.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewaySemiBold";
+  font-family: "PlusJakartaSans-SemiBold";
   font-style: "normal";
   font-weight: 600;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../../fonts/Raleway-SemiBold.woff") format("woff"), url("../../fonts/Raleway-SemiBold.ttf") format("ttf"), url("../../fonts/Raleway-SemiBold.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-SemiBold.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-SemiBold.woff") format("woff"), url("/static/fonts/PlusJakartaSans-SemiBold.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-SemiBold.eot") format("eot");
 }
 
 @font-face {
-  font-family: "RalewayBold";
+  font-family: "PlusJakartaSans-Bold";
   font-style: "normal";
   font-weight: 700;
   font-display: swap;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  src: url("../../fonts/Raleway-Bold.woff2") format("woff2"), url("../../fonts/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway-Bold.ttf") format("ttf"), url("../../fonts/Raleway-Bold.eot") format("eot");
+  src: url("/static/fonts/PlusJakartaSans-Bold.woff2") format("woff2"), url("/static/fonts/PlusJakartaSans-Bold.woff") format("woff"), url("/static/fonts/PlusJakartaSans-Bold.ttf") format("ttf"), url("/static/fonts/PlusJakartaSans-Bold.eot") format("eot");
 }
 
 a {
@@ -83,28 +83,28 @@ a {
 }
 
 .f-regular {
-  font-family: 'RalewayRegular', serif;
+  font-family: 'PlusJakartaSans-Regular', serif;
   font-weight: 400;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-medium {
-  font-family: 'RalewayMedium', serif;
+  font-family: 'PlusJakartaSans-Medium', serif;
   font-weight: 500;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-semi {
-  font-family: 'RalewaySemiBold', serif;
+  font-family: 'PlusJakartaSans-SemiBold', serif;
   font-weight: 600;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .f-bold {
-  font-family: 'RalewayBold', serif;
+  font-family: 'PlusJakartaSans-Bold', serif;
   font-weight: 700;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
@@ -125,7 +125,7 @@ a {
   line-height: 27px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .text-md {
     font-size: 15px;
     line-height: 22.5px;
@@ -137,7 +137,7 @@ a {
   line-height: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .text-lg {
     font-size: 18px;
     line-height: 27px;
@@ -149,7 +149,7 @@ a {
   line-height: 36px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .text-lg2 {
     font-size: 20px;
     line-height: 30px;
@@ -168,7 +168,7 @@ a {
   line-height: 84px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .text-xl {
     font-size: 32px;
     line-height: 48px;
@@ -184,17 +184,17 @@ a {
 
 .text-2xl {
   font-size: 112px;
-  line-height: 127.49px;
+  line-height: 127px;
 }
 
-@media (min-width: 1024px) and (max-height: 800px) {
+@media (min-width: 998px) and (max-height: 900px) {
   .text-2xl {
     font-size: 88px;
     line-height: 103.31px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .text-2xl {
     font-size: 72px;
     line-height: 84.53px;
@@ -227,6 +227,10 @@ a {
   background-position: center;
 }
 
+.input-wrapper.error input {
+  padding-right: 50px;
+}
+
 .input-wrapper.error button {
   display: none;
 }
@@ -237,12 +241,16 @@ a {
   right: 20px;
 }
 
+.input-password input {
+  padding-right: 50px;
+}
+
 .error-message {
   width: 100%;
   position: absolute;
-  bottom: -17px;
+  bottom: -20px;
   left: 0;
-  font-family: 'RalewayRegular', serif;
+  font-family: 'PlusJakartaSans-Regular', serif;
   font-size: 12px;
   line-height: 18px;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
@@ -257,12 +265,14 @@ input {
   width: 100%;
   height: 57px;
   outline: none;
-  border: 2px solid #B388AE;
+  border: none;
   padding: 15px 20px;
   border-radius: 4px;
-  font-family: 'RalewayRegular', serif;
-  font-size: 18px;
-  line-height: 27px;
+  background-color: #F6EEF5;
+  font-family: 'PlusJakartaSans-Regular', serif;
+  border: 1px solid #F6EEF5;
+  font-size: 15px;
+  line-height: 22.5px;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
   color: #121515;
@@ -270,12 +280,9 @@ input {
   transition: .2s ease;
 }
 
-input:focus {
-  border-color: #74266C;
-}
-
-input:focus:hover {
-  border-color: #74266C;
+input:focus, input.filled {
+  background-color: #ECDAEA;
+  border-color: #ECDAEA;
 }
 
 input.error {
@@ -287,37 +294,37 @@ input.error:hover {
 }
 
 input::-webkit-input-placeholder {
-  font-family: 'RalewayRegular', serif;
-  font-size: 18px;
-  line-height: 27px;
+  font-family: 'PlusJakartaSans-Regular', serif;
+  font-size: 15px;
+  line-height: 22.5px;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  color: #C4C5C5;
+  color: #7D7E7E;
 }
 
 input:-ms-input-placeholder {
-  font-family: 'RalewayRegular', serif;
-  font-size: 18px;
-  line-height: 27px;
+  font-family: 'PlusJakartaSans-Regular', serif;
+  font-size: 15px;
+  line-height: 22.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  color: #C4C5C5;
+  color: #7D7E7E;
 }
 
 input::-ms-input-placeholder {
-  font-family: 'RalewayRegular', serif;
-  font-size: 18px;
-  line-height: 27px;
+  font-family: 'PlusJakartaSans-Regular', serif;
+  font-size: 15px;
+  line-height: 22.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  color: #C4C5C5;
+  color: #7D7E7E;
 }
 
 input::placeholder {
-  font-family: 'RalewayRegular', serif;
-  font-size: 18px;
-  line-height: 27px;
+  font-family: 'PlusJakartaSans-Regular', serif;
+  font-size: 15px;
+  line-height: 22.5px;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
-  color: #C4C5C5;
+  color: #7D7E7E;
 }
 
 @media (max-width: 768px) {
@@ -370,7 +377,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 2px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -379,7 +386,7 @@ button {
 }
 
 button.big {
-  height: 76px;
+  height: 68px;
 }
 
 button.filled {
@@ -401,8 +408,17 @@ button.filled:disabled:hover {
 }
 
 button.outlined {
-  height: auto;
-  padding: 10px 30px;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
   color: #fff;
   border: 1px solid #fff;
   background-color: transparent;
@@ -423,9 +439,12 @@ button.password:hover {
   background-color: transparent;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   button.big {
     height: 70px;
+  }
+  button.outlined {
+    padding: 0 19px;
   }
 }
 
@@ -434,10 +453,11 @@ button.password:hover {
     height: 43px;
   }
   button.big {
-    height: 43px;
+    height: 53px;
   }
   button.outlined {
-    padding: 5px 20px;
+    height: 30px;
+    padding: 0 10px;
   }
 }
 
@@ -455,10 +475,10 @@ header {
 }
 
 @media (max-width: 640px) {
-  img {
+  header img {
     width: 96px;
   }
-  .header-pre {
+  header .header-pre {
     font-size: 13px;
     line-height: 19.5px;
   }
@@ -481,9 +501,9 @@ header {
 }
 
 .main-content-preview {
-  min-height: calc(100vh - 64.45px);
+  height: auto;
   position: relative;
-  padding-top: 80px;
+  padding-top: 66px;
 }
 
 .main-content-preview:after {
@@ -494,8 +514,10 @@ header {
   top: 0;
   left: 0;
   background-color: #fff;
-  -webkit-clip-path: polygon(0 74.5%, 100% 41%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 74.5%, 100% 41%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 84.5%, 100% 47%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 84.5%, 100% 47%, 100% 100%, 0% 100%);
+  width: 150%;
+  left: -25%;
   z-index: -1;
 }
 
@@ -520,22 +542,29 @@ header {
 .main-content--info-description {
   max-width: 462px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 21px;
 }
 
 .main-content--info-link {
+  width: 270px;
+  height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
-  margin-top: 16px;
+  color: #571D51;
+  margin-top: 35px;
+  background: linear-gradient(92.83deg, rgba(214, 190, 211, 0.6) -8.29%, rgba(225, 231, 255, 0.6) 114.03%);
+  border-radius: 2px;
 }
 
 .main-content--info-link span {
-  margin-right: 13px;
+  margin-right: 10px;
 }
 
 .main-content--preview-image {
@@ -547,8 +576,9 @@ header {
 }
 
 .main-content--preview-image img {
+  height: 100%;
   position: absolute;
-  top: 9px;
+  top: 24px;
   left: 10px;
 }
 
@@ -560,8 +590,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 54px;
+  margin-top: 66px;
   margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .main-content-timer h2 {
@@ -576,72 +608,79 @@ header {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-left: 150px;
+  margin-top: 6px;
 }
 
 .main-content-timer--button button {
-  width: 500px;
+  width: 360px;
   margin-right: 30px;
+  margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-@media (min-width: 1024px) and (max-height: 1040px) {
+.main-content-timer--button img.image-sm {
+  display: none;
+}
+
+@media (min-width: 998px) and (max-height: 900px) {
+  .main-content {
+    padding-top: 30px;
+  }
   .main-content-preview:after {
-    -webkit-clip-path: polygon(0 82.5%, 100% 49%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 82.5%, 100% 49%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0px 95.5%, 100% 19%, 100% 100%, 0% 100%);
+    clip-path: polygon(0px 95.5%, 100% 19%, 100% 100%, 0% 100%);
   }
-}
-
-@media (min-width: 1024px) and (max-height: 960px) {
-  .main-content-preview {
-    padding-top: 40px;
-  }
-}
-
-@media (min-width: 1024px) and (max-height: 915px) {
-  .main-content-timer {
-    margin-top: 10px;
-  }
-}
-
-@media (min-width: 1024px) and (max-height: 880px) {
-  .main-content-preview {
-    padding-top: 10px;
-  }
-  .main-content--preview {
-    padding-top: 10px;
-  }
-  .main-content--preview-image {
-    height: 500px;
-  }
-  .main-content--preview-image img {
-    height: 100%;
+  .main-content--info-text {
+    font-size: 72px;
+    line-height: 90px;
   }
   .main-content--info-description {
-    margin-top: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 19px;
   }
   .main-content--info-link {
+    width: 219px;
+    height: 43px;
+    margin-top: 14px;
+  }
+  .main-content--info-link span {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+  .main-content--preview-image {
+    height: 414px;
+  }
+  .main-content--preview-image img {
+    top: 0;
+  }
+  .main-content-timer {
     margin-top: 5px;
+    margin-left: 5px;
+  }
+  .main-content-timer h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-content-timer--button {
+    margin-top: 21px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main-content-timer--button img {
+    display: none;
+  }
+  .main-content-timer--button img.image-sm {
+    display: block;
+    margin-top: -3px;
   }
 }
 
-@media (min-width: 1024px) and (max-height: 810px) {
-  .main-content--preview-image {
-    height: 475px;
-  }
-}
-
-@media (min-width: 1024px) and (max-height: 750px) {
-  .main-content--preview-image {
-    height: 430px;
-  }
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .main-content-preview {
     padding-top: 60px;
-  }
-  .main-content-preview:after {
-    -webkit-clip-path: polygon(0 61%, 100% 46%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 61%, 100% 46%, 100% 100%, 0% 100%);
   }
   .main-content--info {
     width: 59%;
@@ -653,10 +692,13 @@ header {
     margin-bottom: 0;
   }
   .main-content--info-description {
-    max-width: 360px;
+    max-width: 400px;
     margin-top: 30px;
     font-size: 18px;
     line-height: 27px;
+  }
+  .main-content--info-link {
+    margin-top: 30px;
   }
   .main-content--info-link span {
     font-size: 20px;
@@ -669,30 +711,48 @@ header {
     top: -9px;
     left: -37px;
   }
+  .main-content-timer {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {
+  .main-content-preview:after {
+    -webkit-clip-path: polygon(0 73%, 100% 48%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 73%, 100% 48%, 100% 100%, 0% 100%);
+  }
   .main-content-timer {
     margin-top: 61px;
   }
   .main-content-timer--button {
-    margin-left: 139px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 166px;
+    margin-top: 20px;
   }
   .main-content-timer--button button {
-    width: 440px;
-    margin-right: 20px;
+    width: 360px;
+    margin-right: 30px;
+  }
+  .main-content-timer--button img.image {
+    display: none;
+  }
+  .main-content-timer--button img.image-sm {
+    display: block;
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 640px) {
   .main-content-preview {
     min-height: auto;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-bottom: 20px;
   }
   .main-content-preview:after {
-    -webkit-clip-path: polygon(0 68%, 100% 57%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 68%, 100% 57%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 69%, 100% 58.5%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 69%, 100% 58.5%, 100% 100%, 0% 100%);
   }
   .main-content--info {
     width: 100%;
@@ -705,62 +765,43 @@ header {
   }
   .main-content--info-description {
     max-width: 100%;
-    margin-top: 13px;
+    margin-top: 9px;
     font-size: 15px;
     line-height: 22.5px;
   }
   .main-content--info-link {
-    margin-top: 5px;
+    width: 183px;
+    height: 40px;
+    margin-top: 9px;
   }
   .main-content--info-link span {
-    font-size: 15px;
-    line-height: 22.5px;
+    font-size: 13px;
+    line-height: 19.5px;
     margin-right: 5px;
-  }
-  .main-content--info-link img {
-    width: 62px;
   }
   .main-content--preview-image {
     display: none;
   }
   .main-content-timer {
-    margin-top: 49px;
+    margin-top: 47px;
   }
   .main-content-timer--button {
     width: 100%;
     margin: 0;
     padding: 0 20px;
-    margin-top: 22px;
+    margin-top: 9px;
   }
   .main-content-timer--button button {
     width: 100%;
     margin: 0;
+    font-size: 15px;
+    line-height: 22.5px;
   }
   .main-content-timer--button img {
     display: none;
   }
-}
-
-@media (max-width: 640px) and (max-height: 680px) {
-  .main-content-preview:after {
-    -webkit-clip-path: polygon(0 66%, 100% 56%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 66%, 100% 56%, 100% 100%, 0% 100%);
-  }
-}
-
-@media (max-width: 640px) and (max-height: 580px) {
-  .main-content-preview {
-    padding-top: 15px;
-  }
-  .main-content-preview:after {
-    -webkit-clip-path: polygon(0 67%, 100% 58%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 67%, 100% 58%, 100% 100%, 0% 100%);
-  }
-  .main-content-timer {
-    margin-top: 10px;
-  }
-  .main-content--info-link {
-    margin-top: 0;
+  .main-content-timer--button img.image-sm {
+    display: none;
   }
 }
 
@@ -785,9 +826,9 @@ header {
 
 .main-timer span {
   display: block;
-  font-family: "RalewayMedium", serif;
-  font-size: 36px;
-  line-height: 54px;
+  font-family: "PlusJakartaSans-Medium", serif;
+  font-size: 32px;
+  line-height: 48px;
   color: #121515;
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
@@ -805,13 +846,20 @@ header {
   margin-right: 20px;
 }
 
-@media (max-height: 880px) {
+@media (min-width: 998px) and (max-height: 900px) {
   .main-timer {
-    margin-top: 0;
+    margin-top: 4px;
+  }
+  .main-timer span {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .main-timer span.value.hours, .main-timer span.value.minutes, .main-timer span.value.secondes {
+    width: 30px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
   .main-timer span {
     font-size: 28px;
     line-height: 42px;
@@ -826,7 +874,7 @@ header {
 
 @media (max-width: 768px) {
   .main-timer {
-    margin-top: 9px;
+    margin-top: 10px;
   }
   .main-timer span.mean {
     margin-right: 15px;
@@ -845,10 +893,12 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 1px;
+    margin-top: 11px;
     padding: 0 25px;
   }
   .main-timer span.value {
+    font-size: 24px;
+    line-height: 30px;
     margin-right: 0;
   }
   .main-timer span.mean {
@@ -868,7 +918,7 @@ header {
 }
 
 .main-form {
-  padding-top: 150px;
+  padding-top: 133px;
   background-color: #fff;
   position: relative;
 }
@@ -885,42 +935,73 @@ header {
 }
 
 .main-form--info p {
-  max-width: 504px;
+  max-width: 550px;
   color: #571D51;
   margin-bottom: 30px;
 }
 
-.main-form--fields .input-wrapper {
+.main-form--fields {
   width: 598px;
+}
+
+.main-form--fields .input-wrapper {
+  width: 100%;
   margin-bottom: 30px;
 }
 
-.main-form--fields p {
+.main-form--fields .input-username {
+  margin-bottom: 40px;
+}
+
+.main-form--fields-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-top: 1px solid #B388AE;
+}
+
+.main-form--fields-footer p {
   color: #343341;
-  margin-bottom: 30px;
+  line-height: 23.5px;
+  margin-right: 52px;
 }
 
-.main-form--fields a {
+.main-form--fields-footer a {
   color: #B388AE;
 }
 
-.main-form--fields a:hover {
+.main-form--fields-footer a:hover {
   color: #B388AE;
 }
 
-@media (max-width: 1024px) {
+.main-form--fields-footer button {
+  width: 186px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (max-width: 997px) {
   .main-form--fields {
     max-width: 400px;
+    width: 100%;
   }
   .main-form--fields .input-wrapper {
     width: 100%;
+    margin-bottom: 35px;
+  }
+  .main-form--fields .input-username {
+    margin-bottom: 40px;
   }
   .main-form--fields p {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 19.5px;
+    margin-right: 20px;
   }
   .main-form--info {
-    max-width: 290px;
+    max-width: 310px;
   }
   .main-form--info p {
     max-width: 100%;
@@ -929,8 +1010,7 @@ header {
 
 @media (max-width: 768px) {
   .main-form {
-    padding-top: 120px;
-    margin-top: -1px;
+    padding-top: 103px;
     overflow: hidden;
   }
 }
@@ -949,13 +1029,31 @@ header {
     max-width: 100%;
   }
   .main-form--fields .input-wrapper {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+  }
+  .main-form--fields .input-username {
+    margin-bottom: 30px;
   }
   .main-form--fields-preview p {
     margin: 28px 0;
   }
+  .main-form--fields-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 25px;
+  }
+  .main-form--fields-footer p {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .main-form--fields-footer button {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22.5px;
+  }
   .main-form--info {
-    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -971,10 +1069,9 @@ header {
 }
 
 footer {
-  padding-top: 151px;
+  padding-top: 105px;
   background-color: #fff;
   padding-bottom: 50px;
-  margin-top: -1px;
 }
 
 .footer-row {
@@ -991,21 +1088,27 @@ footer {
 .footer-row a,
 .footer-row p {
   color: #7D7E7E;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 22.5px;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 998px) {
   footer {
-    padding-top: 120px;
+    padding-top: 77px;
     padding-bottom: 30px;
+  }
+  .footer-row a,
+  .footer-row p {
+    color: #7D7E7E;
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 
 @media (max-width: 640px) {
   footer {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 30px;
   }
   .footer-row {
@@ -1154,6 +1257,18 @@ body {
   padding-top: 19.95px;
 }
 
+@media (min-width: 998px) and (max-height: 900px) {
+  .main-wrapper {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-wrapper {
+    padding-top: 19px;
+  }
+}
+
 .content-wrapper {
   max-width: 1220px;
   width: 100%;
@@ -1161,8 +1276,8 @@ body {
 }
 
 .gif {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   overflow: hidden;
   border-radius: 100%;
   -o-object-fit: cover;
@@ -1174,13 +1289,13 @@ body {
 .ellipse-blue {
   position: absolute;
   left: 0;
-  top: -168px;
+  top: -120px;
 }
 
 .ellipse-violet {
   position: absolute;
   right: 0;
-  bottom: -161px;
+  bottom: -100px;
 }
 
 .figure-blue {
@@ -1190,7 +1305,7 @@ body {
 
 .figure-violet {
   position: absolute;
-  top: -450px;
+  top: -515px;
   right: 0;
   z-index: 0;
 }
@@ -1205,7 +1320,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .ellipse-blue,
   .ellipse-violet {
     display: none;
@@ -1216,7 +1331,7 @@ body {
   .figure-violet {
     width: 320px;
     height: 350px;
-    top: -345px;
+    top: -207px;
     right: -60px;
     z-index: -1;
   }

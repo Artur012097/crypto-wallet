@@ -14,6 +14,10 @@
                 background-position: center;
             }
 
+            input {
+                padding-right: 50px;
+            }
+
             button {
                 display: none;
             }
@@ -25,14 +29,20 @@
             right: 20px;
         }
     }
+
+    &-password {
+        input {
+            padding-right: 50px;
+        }
+    }
 }
 
 .error-message {
     width: 100%;
     position: absolute;
-    bottom: -17px;
+    bottom: -20px;
     left: 0;
-    font-family: 'RalewayRegular', serif;
+    font-family: 'PlusJakartaSans-Regular', serif;
     font-size: 12px;
     line-height: 18px;
     font-feature-settings: 'pnum' on, 'lnum' on;
@@ -46,22 +56,22 @@ input {
     width: 100%;
     height: 57px;
     outline: none;
-    border: 2px solid $violet40;
+    border: none;
     padding: 15px 20px;
     border-radius: 4px;
-    font-family: 'RalewayRegular', serif;
-    font-size: 18px;
-    line-height: 27px;
+    background-color: #F6EEF5;
+    font-family: 'PlusJakartaSans-Regular', serif;
+    border: 1px solid #F6EEF5;
+    font-size: 15px;
+    line-height: 22.5px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: $text;
     transition: .2s ease;
 
-    &:focus {
-        border-color: $violet80;
-
-        &:hover {
-            border-color: $violet80;
-        }
+    &:focus,
+    &.filled {
+        background-color: #ECDAEA;
+        border-color: #ECDAEA;
     }
 
     &.error {
@@ -73,11 +83,11 @@ input {
     }
 
     &::placeholder {
-        font-family: 'RalewayRegular', serif;
-        font-size: 18px;
-        line-height: 27px;
+        font-family: 'PlusJakartaSans-Regular', serif;
+        font-size: 15px;
+        line-height: 22.5px;
         font-feature-settings: 'pnum' on, 'lnum' on;
-        color: $grayLight;
+        color: $gray;
     }
 }
 

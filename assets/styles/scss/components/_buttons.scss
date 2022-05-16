@@ -5,14 +5,14 @@ button {
     justify-content: center;
     align-items: center;
     color: $white;
-    border-radius: 4px;
+    border-radius: 2px;
     border: none;
     outline: none;
     cursor: pointer;
     transition: .2s ease;
 
     &.big {
-        height: 76px;
+        height: 68px;
     }
 
     &.filled {
@@ -34,8 +34,11 @@ button {
     }
 
     &.outlined {
-        height: auto;
-        padding: 10px 30px;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
         color: $white;
         border: 1px solid $white;
         background-color: transparent;
@@ -57,10 +60,14 @@ button {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 997px) {
     button {
         &.big {
             height: 70px;
+        }
+
+        &.outlined {
+            padding: 0 19px;
         }
     }
 }
@@ -70,11 +77,12 @@ button {
         height: 43px;
 
         &.big {
-            height: 43px;
+            height: 53px;
         }
 
         &.outlined {
-            padding: 5px 20px;
+            height: 30px;
+            padding: 0 10px;
         }
     }
 }

@@ -20,11 +20,6 @@
             </button>
         </header>
 
-        <!-- video background -->
-        <video autoplay muted loop id="videoBg">
-            <source src="./assets/video/background.mp4" type="video/mp4">
-        </video>
-
         <!-- content -->
         <main class="main">
             <!-- main content preview -->
@@ -35,7 +30,6 @@
                             <span class="main-content--info-text f-bold text-2xl">The People</span>
                             <div class="main-content--info-text f-bold text-2xl">
                                 Stock
-                                <img class="main-content--info-bt-gif gif" src="./assets/images/gifs/bt_gif.webp" alt="Gif">
                             </div>
                             <span class="main-content--info-text f-bold text-2xl">Exchange</span>
                         </h1>
@@ -46,7 +40,7 @@
                             <span class="f-semi text-lg">
                                 look our presentation
                             </span> 
-                            <img src="./assets/images/tap.svg" alt="Tap">
+                            <img src="./assets/images/icons/arrow.svg" alt="Arrow">
                         </a>
                     </div>
                     <div class="main-content--preview-image">
@@ -103,12 +97,18 @@
                     </div>
                     <!-- button -->
                     <div class="main-content-timer--button">
-                        <button class="prereg filled f-regular text-lg2 big">
+                        <button class="prereg filled f-regular text-lg big">
                             begin pre-registration
                         </button>
-                        <img src="./assets/images/arrow.svg" alt="Arrow">
+                        <img class="image" src="./assets/images/arrow.svg" alt="Arrow">
+                        <img class="image-sm" src="./assets/images/arrow_sm.svg" alt="Arrow">
                     </div>
                 </div>
+
+                <!-- video background -->
+                <video autoplay muted loop id="videoBg">
+                    <source src="./assets/video/background.mp4" type="video/mp4">
+                </video>
             </section>
             <!-- form -->
             <section class="main-form" id="formSection">
@@ -122,7 +122,7 @@
                             <input type="text" name="email" placeholder="email">
                             <span class="error-message"></span>
                         </div>
-                        <div class="input-wrapper input-passowd">
+                        <div class="input-wrapper input-password">
                             <input type="password" name="password" placeholder="password">
                             <span class="error-message"></span>
                             <button class="password" id="showPassword">
@@ -133,13 +133,17 @@
                             <input type="text" name="username" placeholder="username">
                             <span class="error-message"></span>
                         </div>
-                        <p class="text-sm f-regular">
-                            By signing up, you agree to our Terms, Data Policy and Cookies Policy. 
-                            <a href="#" >Learn more...</a>
-                        </p>
-                        <button class="filled f-regular text-lg" id="submitButton" disabled>
-                            send
-                        </button>
+                        <div class="main-form--fields-footer">
+                            <p class="text-sm f-regular">
+                                By signing up, you agree to our <span class="f-medium">
+                                    Terms, Data Policy and Cookies Policy. 
+                                </span>
+                                <a href="#" >Learn more...</a>
+                            </p>
+                            <button class="filled big f-regular text-lg" id="submitButton" disabled>
+                                send
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -153,8 +157,8 @@
         <!-- footer -->
         <footer>
             <div class="footer-row content-wrapper">
-                <a href="mailto:info@easydevelopment.org" class="text-ms f-regular">info@easydevelopment.org</a>
-            <p class="text-ms f-regular">
+                <a href="mailto:info@easydevelopment.org" class="f-regular">info@easydevelopment.org</a>
+            <p class="f-regular">
                 Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152
             </p>
             </div>

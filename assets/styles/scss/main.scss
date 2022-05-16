@@ -36,6 +36,14 @@ body {
     min-height: 100vh;
     position: relative;
     padding-top: 19.95px;
+
+    @media (min-width: 998px) and (max-height: 900px) {
+        padding-top: 15px;
+    }
+
+    @media (max-width: 640px) {
+        padding-top: 19px;
+    }
 }
 
 .content-wrapper {
@@ -45,8 +53,8 @@ body {
 }
 
 .gif {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     overflow: hidden;
     border-radius: 100%;
     object-fit: cover;
@@ -56,13 +64,13 @@ body {
 .ellipse-blue {
     position: absolute;
     left: 0;
-    top: -168px;
+    top: -120px;
 }
 
 .ellipse-violet {
     position: absolute;
     right: 0;
-    bottom: -161px;
+    bottom: -100px;
 }
 
 .figure-blue {
@@ -72,7 +80,7 @@ body {
 
 .figure-violet {
     position: absolute;
-    top: -450px;
+    top: -515px;
     right: 0;
     z-index: 0;
 }
@@ -88,7 +96,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .ellipse-blue,
     .ellipse-violet {
         display: none;
@@ -101,7 +109,7 @@ body {
     .figure-violet {
         width: 320px;
         height: 350px;
-        top: -345px;
+        top: -207px;
         right: -60px;
         z-index: -1;
      }

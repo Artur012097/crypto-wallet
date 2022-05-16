@@ -1,8 +1,7 @@
 footer {
-    padding-top: 151px;
+    padding-top: 105px;
     background-color: $white;
     padding-bottom: 50px;
-    margin-top: -1px;
 }
 
 .footer-row {
@@ -14,22 +13,31 @@ footer {
     a,
     p {
         color: $gray;
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 22.5px;
         text-align: center;
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 998px) {
     footer {
-        padding-top: 120px;
+        padding-top: 77px;
         padding-bottom: 30px;
+    }
+
+    .footer-row {
+    a,
+    p {
+        color: $gray;
+        font-size: 12px;
+        line-height: 18px;
+    }
     }
 }
 
 @media (max-width: 640px) {
     footer {
-        padding-top: 70px;
+        padding-top: 30px;
         padding-bottom: 30px;
     }
     .footer {

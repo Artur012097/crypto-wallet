@@ -1,8 +1,8 @@
 const preregButtons = document.querySelectorAll('.prereg')
-const fields = [...document.querySelectorAll('input')]
+const field = document.getElementById('emailInput')
 const submitButton = document.querySelectorAll('.submitButton')
 // const showPasswordButton = document.getElementById('showPassword')
-let error = false
+const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
 const createPopup = () => {
     const div = document.createElement('div')
@@ -34,18 +34,21 @@ const scrollTo = () => {
 }
 
 const changeInputState = (inputName, text) => {
-    const input = fields.find(i => i.name === inputName);
-    const parent = input.parentNode
+    // const input = fields.find(i => i.name === inputName);
+    const parent = field.parentNode
+    const button = parent.nextElementSibling
     const errorSpan = parent.querySelector('span')
 
     if (text) {
-        input.classList.add('error')
+        field.classList.add('error')
         errorSpan.innerText = text
         parent.classList.add('error')
+        button.classList.add('error')
     } else {
-        input.classList.remove('error')
+        field.classList.remove('error')
         errorSpan.innerText = ''
         parent.classList.remove('error')
+        button.classList.remove('error')
     }
 }
 
@@ -65,7 +68,7 @@ const showHidePassword = (e) => {
 }
 
 const register = async (data) => {
-    const url = 'https://dev.easydev.group/api/register/'
+    const url = 'https://dev.easydev.group/api/pre_register/'
     const config = {
         method: 'POST',
         headers: {
@@ -103,56 +106,55 @@ preregButtons.forEach(item => item.addEventListener('click', scrollTo))
 // register
 submitButton.forEach(item => item.addEventListener('click', () => {
     const data = {}
-    for (i of fields) {
-        data[i.name] = i.value
+    data.email = field?.value ?? ''
+    
+    if (!emailRegex?.test(String(field?.value).toLowerCase())) {
+        changeInputState(null, 'incorrect email address')
+        return false
     }
-    data.username = strigGenerator(16, "letters+numbers")
-    data.password = strigGenerator(16, "letters+numbers")
-    data.source = 1
+    // data.username = strigGenerator(16, "letters+numbers")
+    // data.password = strigGenerator(16, "letters+numbers")
+    // data.source = 1
 
     register(data)
         .then((data) => {
-            if (!data?.id) {
-                for (key of Object.keys(data)) {
-                    if (key) {
-                        changeInputState(key, data[key][0]);
-                        submitButton.disabled = true
-                    }
-                }
+            if (!data?.email) {
+                // for (key of Object.keys(data)) {
+                //     if (key) {
+                //         changeInputState(key, data[key][0]);
+                //         submitButton.disabled = true
+                //     }
+                // }
+                changeInputState(null, data[key][0])
             } else {
                 createPopup()
                 submitButton.disabled = true
-                for (i of fields) {
-                    i.value = ''
-                    i.classList.remove('filled')
-                }
+                    field.value = ''
+                    field.classList.remove('filled')
+                // for (i of fields) {
+                //     i.value = ''
+                //     i.classList.remove('filled')
+                // }
             }
         })
 }))
 
 // clear errors
-fields.forEach(item => {
-    if (Boolean(item.focus)) {
-        item.addEventListener('input', (e) => {
-            const el = e.currentTarget.name
-            changeInputState(el)
+field.addEventListener('input', (e) => {
+    const el = e.currentTarget
+    changeInputState()
 
-            if (fields.some(i => !i.value)) {
-                submitButton.forEach(item => item.disabled = true)
-                
-            } else {
-                error = false
-                submitButton.forEach(item => item.disabled = false)
-            }
-
-            if (item?.value) {
-                item.classList.add('filled')
-            } else {
-                item.classList.remove('filled')
-            }
-        })
+    if (!el.value) {
+        submitButton.forEach(item => item.disabled = true)
+        
     } else {
-        item.removeEventListener('input')
+        submitButton.forEach(item => item.disabled = false)
+    }
+
+    if (el?.value) {
+        el.classList.add('filled')
+    } else {
+        el.classList.remove('filled')
     }
 })
 

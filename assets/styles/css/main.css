@@ -105,8 +105,8 @@ input {
 .input-wrapper.error:after {
   content: '';
   position: absolute;
-  top: 17px;
-  right: 20px;
+  top: 24px;
+  right: 222px;
   width: 24px;
   height: 24px;
   background-image: url("/assets/images/icons/alert-circle.svg");
@@ -115,10 +115,6 @@ input {
 
 .input-wrapper.error input {
   padding-right: 50px;
-}
-
-.input-wrapper.error button {
-  display: none;
 }
 
 .input-wrapper button {
@@ -211,6 +207,12 @@ input::placeholder {
   -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
           font-feature-settings: 'pnum' on, 'lnum' on;
   color: #7D7E7E;
+}
+
+@media (max-width: 1024px) {
+  .input-wrapper.error:after {
+    right: 24px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -943,6 +945,12 @@ header {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  .main-form--fields-footer.error {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
   }
   .main-form--fields-footer p {
     margin: 21px 0 40px 0;

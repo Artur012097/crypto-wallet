@@ -6,8 +6,8 @@
             &:after {
                 content: '';
                 position: absolute;
-                top: 17px;
-                right: 20px;
+                top: 24px;
+                right: 222px;
                 width: 24px;
                 height: 24px;
                 background-image: url('/assets/images/icons/alert-circle.svg');
@@ -18,9 +18,9 @@
                 padding-right: 50px;
             }
 
-            button {
-                display: none;
-            }
+            // button {
+            //     display: none;
+            // }
         }
 
         button {
@@ -88,6 +88,16 @@ input {
         line-height: 22.5px;
         font-feature-settings: 'pnum' on, 'lnum' on;
         color: $gray;
+    }
+}
+
+@media (max-width: 1024px) {
+    .input-wrapper {
+        &.error {
+            &:after {
+                right: 24px;
+            }
+        }
     }
 }
 

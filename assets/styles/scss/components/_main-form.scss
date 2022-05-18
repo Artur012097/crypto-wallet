@@ -185,6 +185,11 @@
 
             &-footer {
                 flex-direction: column-reverse;
+                transition: .3s ease;
+
+                &.error {
+                    transform: translateY(15px);
+                }
 
                 p {
                     margin: 21px 0 40px 0;

@@ -118,14 +118,14 @@ submitButton.forEach(item => item.addEventListener('click', () => {
 
     register(data)
         .then((data) => {
-            if (!data?.email) {
+            if (typeof data?.email !== 'string') {
                 // for (key of Object.keys(data)) {
                 //     if (key) {
                 //         changeInputState(key, data[key][0]);
                 //         submitButton.disabled = true
                 //     }
                 // }
-                changeInputState(null, data[key][0])
+                changeInputState(null, data?.email?.[0])
             } else {
                 createPopup()
                 submitButton.disabled = true

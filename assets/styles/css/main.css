@@ -421,7 +421,7 @@ header {
 }
 
 .main-content--info-link {
-  width: 270px;
+  width: 288px;
   height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,7 +629,7 @@ header {
     line-height: 22.5px;
   }
   .main-content--info-link {
-    width: 183px;
+    width: 195px;
     height: 40px;
     margin-top: 10px;
   }
